@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_bbq_array = []
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
-      if holiday_hash[season][holiday][supplies].include?("BBQ")
+      if supplies.include?("BBQ")
         holiday_bbq_array << holiday
       end
     end
