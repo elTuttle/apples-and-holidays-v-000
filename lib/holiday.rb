@@ -46,7 +46,7 @@ def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_arr
 
   holiday_hash[season] = holiday_name
 
-  holiday_hash
+  puts holiday_hash
 
 end
 
